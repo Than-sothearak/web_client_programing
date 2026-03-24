@@ -13,23 +13,19 @@
     <header>
       <h1>TP 2 Session 3</h1>
       <h2>2.5 Interactive Web Forms</h2>
-
+      <hr />
       <nav>
         <a href="index.html">Home</a>
         <a href="media.html">Media</a>
-        <a href="form.html">Contact</a>
+        <a href="form.html">Contact-form</a>
       </nav>
     </header>
 
     <main>
       <section>
-        <h1>Email and Password</h1>
+        <h3>Email and Password</h3>
 
-        <p>
-          Please fill out the form below. This form demonstrates many HTML5
-          input types used in modern websites.
-        </p>
-
+     
         <form action="#" method="GET">
           <legend>Personal Information</legend>
 
@@ -51,6 +47,8 @@
             placeholder="example@email.com"
             required
           />
+
+          
           <br /><br />
 
           <!-- Advanced Input Types (45 Minutes) -->
@@ -76,68 +74,66 @@
           <input type="number" id="age" name="age" min="10" max="100" />
           <br /><br />
 
-          <hr>
+          <hr />
           <!-- Radio Buttons (Choose ONE): -->
-    <h1>Radio Buttons (Choose ONE):</h1>
-     
-            <legend>Course Preferences</legend>
+          <h3>Radio Buttons (Choose ONE):</h3>
 
-            <label>Gender:</label><br />
+          <legend>Course Preferences</legend>
 
-            <input type="radio" name="gender" value="male" /> Male
-            <br />
+          <label>Gender:</label><br />
 
-            <input type="radio" name="gender" value="female" /> Female
-            <br />
+          <input type="radio" name="gender" value="male" /> Male
+          <br />
 
-            <input type="radio" name="gender" value="other" /> Other
+          <input type="radio" name="gender" value="female" /> Female
+          <br />
 
-            <br /><br />
-<hr>
-            <!-- Checkboxes (Choose MANY): -->
-             <h1>Checkboxes (Choose MANY)</h1>
+          <input type="radio" name="gender" value="other" /> Other
 
-            <label>Technologies You Want to Learn:</label><br />
+          <br /><br />
+          <hr />
+          <!-- Checkboxes (Choose MANY): -->
+          <h3>Checkboxes (Choose MANY)</h3>
 
-            <input type="checkbox" name="tech" value="html" /> HTML
-            <br />
+          <label>Technologies You Want to Learn:</label><br />
 
-            <input type="checkbox" name="tech" value="css" /> CSS
-            <br />
+          <input type="checkbox" name="tech" value="html" /> HTML
+          <br />
 
-            <input type="checkbox" name="tech" value="javascript" /> JavaScript
-            <br />
+          <input type="checkbox" name="tech" value="css" /> CSS
+          <br />
 
-            <input type="checkbox" name="tech" value="react" /> React
-            <br /><br />
+          <input type="checkbox" name="tech" value="javascript" /> JavaScript
+          <br />
 
- <hr>
-            <!-- Dropdown Menus (<select>): -->
-            
-              <h1>Dropdown Menus</h1>
-            <label for="course">Select Course:</label><br />
+          <input type="checkbox" name="tech" value="react" /> React <br /><br />
 
-            <select id="course" name="course">
-              <option value="">--Choose a Course--</option>
-              <option value="web">Web Development</option>
-              <option value="design">Graphic Design</option>
-              <option value="programming">Programming</option>
-            </select>
+          <hr />
+          <!-- Dropdown Menus (<select>): -->
 
-            <br /><br />
+          <h3>Dropdown Menus</h3>
+          <label for="course">Select Course:</label><br />
 
-            <label for="experience">Experience Level:</label><br />
+          <select id="course" name="course">
+            <option value="">--Choose a Course--</option>
+            <option value="web">Web Development</option>
+            <option value="design">Graphic Design</option>
+            <option value="programming">Programming</option>
+          </select>
 
-            <input
-              type="range"
-              id="experience"
-              name="experience"
-              min="1"
-              max="10"
-            />
+          <br /><br />
 
-            <br /><br />
-      
+          <label for="experience">Experience Level:</label><br />
+
+          <input
+            type="range"
+            id="experience"
+            name="experience"
+            min="1"
+            max="10"
+          />
+
+          <br /><br />
 
           <!-- https://www.w3schools.com/tags/tag_fieldset.asp -->
           <fieldset>
