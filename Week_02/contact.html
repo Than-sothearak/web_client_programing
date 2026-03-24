@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contact Form</h2>
+
+        <p>
+          Please fill out the form below. This form demonstrates many HTML5
+          input types used in modern websites.
+        </p>
+
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+            <br /><br />
+
+            <label for="email">Email Address:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@email.com"
+              required
+            />
+            <br /><br />
+
+            <label for="password">Password:</label><br />
+            <input type="password" id="password" name="password" />
+            <br /><br />
+
+            <label for="phone">Phone Number:</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+85512345678"
+            />
+            <br /><br />
+
+            <label for="birthday">Date of Birth:</label><br />
+            <input type="date" id="birthday" name="birthday" />
+            <br /><br />
+
+            <label for="age">Age:</label><br />
+            <input type="number" id="age" name="age" min="10" max="100" />
+            <br /><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Course Preferences</legend>
+
+            <label>Gender:</label><br />
+
+            <input type="radio" name="gender" value="male" /> Male
+            <br />
+
+            <input type="radio" name="gender" value="female" /> Female
+            <br />
+
+            <input type="radio" name="gender" value="other" /> Other
+
+            <br /><br />
+
+            <label>Technologies You Want to Learn:</label><br />
+
+            <input type="checkbox" name="tech" value="html" /> HTML
+            <br />
+
+            <input type="checkbox" name="tech" value="css" /> CSS
+            <br />
+
+            <input type="checkbox" name="tech" value="javascript" /> JavaScript
+            <br />
+
+            <input type="checkbox" name="tech" value="react" /> React
+            <br /><br />
+
+            <label for="course">Select Course:</label><br />
+
+            <select id="course" name="course">
+              <option value="">--Choose a Course--</option>
+              <option value="web">Web Development</option>
+              <option value="design">Graphic Design</option>
+              <option value="programming">Programming</option>
+            </select>
+
+            <br /><br />
+
+            <label for="experience">Experience Level:</label><br />
+
+            <input
+              type="range"
+              id="experience"
+              name="experience"
+              min="1"
+              max="10"
+            />
+
+            <br /><br />
+          </fieldset>
+
+          <!-- https://www.w3schools.com/tags/tag_fieldset.asp -->
+          <fieldset>
+            <legend>Additional Information</legend>
+
+            <section>
+              <label for="country">Select Country:</label>
+
+              <select id="country" name="country">
+                <option value="">--Choose Country--</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapore">Singapore</option>
+              </select>
+            </section>
+
+            <!-- https://www.w3schools.com/tags/tag_datalist.asp -->
+
+            <br /><br />
+
+            <label for="favoriteColor">Favorite Color:</label><br />
+
+            <input type="color" id="favoriteColor" name="favoriteColor" />
+
+            <br /><br />
+
+            <label for="resume">Upload File:</label><br />
+
+            <input type="file" id="resume" name="resume" />
+
+            <br /><br />
+
+            <label for="message">Message:</label><br />
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              placeholder="Write your message here"
+            ></textarea>
+          </fieldset>
+
+          <br />
+
+          <button type="submit">Submit Form</button>
+          <button type="reset">Reset Form</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Student Learning Website</p>
+    </footer>
+  </body>
+</html>

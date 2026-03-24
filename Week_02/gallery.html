@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Media Gallery</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Image Gallery</h2>
+
+        <p>
+          Images help make websites visually engaging. In HTML5, the
+          <code>&lt;img&gt;</code> tag is used to display images on a webpage.
+        </p>
+
+        <figure>
+          <img
+            src="/Week_02/images/computer.png"
+            alt="Computer Setup"
+            width="400"
+          />
+
+          <figcaption>
+            Figure 1: Example of a computer workstation used for web
+            development.
+          </figcaption>
+        </figure>
+
+        <br />
+
+        <figure>
+          <img
+            src="/TP-2/images/computer.png"
+            alt="Programming workspace"
+            width="400"
+          />
+
+          <figcaption>
+            Figure 2: A programming workspace where developers write and test
+            code.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>HTML5 Video Example</h2>
+
+        <p>
+          HTML5 introduced the <code>&lt;video&gt;</code> element which allows
+          web developers to embed video directly into webpages without plugins.
+        </p>
+
+        <video width="500" controls>
+          <source src="/TP-2/videos/video.mp4" type="video/mp4" />
+
+          Your browser does not support the video element.
+        </video>
+
+        <p>
+          This video demonstrates a beginner HTML tutorial that explains how
+          webpages are structured using HTML tags.
+        </p>
+      </section>
+
+      <section>
+        <h2>Audio Example</h2>
+
+        <p>
+          The <code>&lt;audio&gt;</code> element allows you to embed sound files
+          such as music, narration, or podcasts.
+        </p>
+
+        <audio controls>
+          <source src="audio/sample.mp3" type="audio/mpeg" />
+
+          Your browser does not support audio playback.
+        </audio>
+      </section>
+
+      <section>
+        <h2>YouTube Video (Embedded with iframe)</h2>
+
+        <p>
+          Developers can embed external content such as YouTube videos using the
+          <code>&lt;iframe&gt;</code> element.
+        </p>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qz0aGYrrlhU"
+          title="HTML Tutorial"
+          frameborder=""
+          allowfullscreen
+          loading="lazy"
+     
+        >
+        </iframe>
+      </section>
+
+      <section>
+        <h2>Google Map Example</h2>
+
+        <p>
+          Another common use of iframes is embedding maps to show locations.
+        </p>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0167202017683!2d104.9282!3d11.5564"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+
+      <section>
+        <h2>Practice Task for Students</h2>
+
+        <p>Students should try the following activities:</p>
+
+        <ul>
+          <li>Add more images to the gallery</li>
+
+          <li>Embed another YouTube tutorial video</li>
+
+          <li>
+            Add captions for each image using
+            <code>&lt;figcaption&gt;</code>
+          </li>
+
+          <li>Add another audio file</li>
+
+          <li>Experiment with different video sizes</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Student Learning Website</p>
+    </footer>
+  </body>
+</html>

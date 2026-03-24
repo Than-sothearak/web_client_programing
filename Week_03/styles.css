@@ -1,0 +1,213 @@
+/* Reset basic spacing */
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+
+header {
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+/* Navigation */
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #1abc9c;
+}
+
+/* Main container */
+
+main {
+  max-width: 100%;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Section cards */
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Lists */
+
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Links */
+
+a {
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Image styling */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #3498db;
+  color: white;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+/* Aside */
+
+aside {
+  background: #ecf0f1;
+  padding: 20px;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
+
+.images-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.images-gallery figure {
+  flex: 1 1 calc(50% - 20px);
+}
+
+.images-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .images-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+}
