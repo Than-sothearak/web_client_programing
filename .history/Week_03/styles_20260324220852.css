@@ -63,7 +63,6 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 
@@ -133,7 +132,7 @@ a:hover {
 /* Image styling */
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;

@@ -60,12 +60,6 @@ main {
   padding: 30px 20px;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 
 /* Section cards */
 
@@ -133,7 +127,7 @@ a:hover {
 /* Image styling */
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
