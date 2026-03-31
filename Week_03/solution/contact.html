@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="form-style.css" />
   </head>
 
   <body>
@@ -41,7 +41,6 @@
               placeholder="Enter your full name"
               required
             />
-            <br /><br />
 
             <label for="email">Email Address:</label><br />
             <input
@@ -51,11 +50,15 @@
               placeholder="example@email.com"
               required
             />
-            <br /><br />
 
             <label for="password">Password:</label><br />
-            <input type="password" id="password" name="password" />
-            <br /><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
 
             <label for="phone">Phone Number:</label><br />
             <input
@@ -64,18 +67,15 @@
               name="phone"
               placeholder="+85512345678"
             />
-            <br /><br />
 
             <label for="birthday">Date of Birth:</label><br />
             <input type="date" id="birthday" name="birthday" />
-            <br /><br />
 
             <label for="age">Age:</label><br />
-            <input type="number" id="age" name="age" min="10" max="100" />
-            <br /><br />
+            <input type="number" id="age" name="age" min="10" max="100" placeholder="Enter your age"/>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="gender-dev">
             <legend>Course Preferences</legend>
 
             <label>Gender:</label><br />
@@ -112,20 +112,6 @@
               <option value="design">Graphic Design</option>
               <option value="programming">Programming</option>
             </select>
-
-            <br /><br />
-
-            <label for="experience">Experience Level:</label><br />
-
-            <input
-              type="range"
-              id="experience"
-              name="experience"
-              min="1"
-              max="10"
-            />
-
-            <br /><br />
           </fieldset>
 
           <!-- https://www.w3schools.com/tags/tag_fieldset.asp -->
@@ -133,7 +119,7 @@
             <legend>Additional Information</legend>
 
             <section>
-              <label for="country">Select Country:</label>
+              <h2>Select Country:</h2>
 
               <select id="country" name="country">
                 <option value="">--Choose Country--</option>
@@ -146,20 +132,6 @@
 
             <!-- https://www.w3schools.com/tags/tag_datalist.asp -->
 
-            <br /><br />
-
-            <label for="favoriteColor">Favorite Color:</label><br />
-
-            <input type="color" id="favoriteColor" name="favoriteColor" />
-
-            <br /><br />
-
-            <label for="resume">Upload File:</label><br />
-
-            <input type="file" id="resume" name="resume" />
-
-            <br /><br />
-
             <label for="message">Message:</label><br />
 
             <textarea
@@ -170,8 +142,6 @@
               placeholder="Write your message here"
             ></textarea>
           </fieldset>
-
-          <br />
 
           <button type="submit">Submit Form</button>
           <button type="reset">Reset Form</button>

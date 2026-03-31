@@ -1,0 +1,36 @@
+.box1 {
+  margin-bottom: 20px;
+}
+.box {
+  margin-left: 50px; margin-top: 50px;
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  border: 5px solid black;
+  padding: 60px;
+  border-radius: 15px; 
+}
+
+
+  .box3 {
+
+width: 200px;         /* ទទឹង */
+
+height: 200px;        /* បណ្តោយ (ត្រូវតែស្មើនឹងទទឹង) */
+
+background-color: orange;
+
+border-radius: 50%;   /* នេះជាគន្លឹះដើម្បីធ្វើឱ្យវាមូល */  
+
+
+
+/* បន្ថែមទៀត៖ ធ្វើឱ្យអត្ថបទនៅចំកណ្តាលរង្វង់ */
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
