@@ -1,0 +1,44 @@
+/* Phase 2: Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.main-header {
+  background-color: #333;
+  color: white;
+  padding: 15px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation list */
+.main-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+/* Links styling */
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.main-nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
