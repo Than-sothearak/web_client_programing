@@ -1,7 +1,12 @@
-// Hello Console
+// 1: Hello Console
 console.log("Hello, World! I am learning JavaScript.");
 
-// Variables and Data Types
+
+
+
+
+
+// 2: Variables and Data Types 45 Minutes
 
 // String
 const myName = "Dara"; 
@@ -15,23 +20,24 @@ console.log("I am " + myAge + " years old");
 console.log("Am I a student? " + isStudent);
 
 // Reading Errors
-// let myCity = "New York";
-// myCity = "Los Angeles"; // Reassigning the value of myCity
+let myCity = "New York";
+myCity = "Los Angeles"; // Reassigning the value of myCity
 
-// const myCountry = "USA";
-// myCountry = "Canada"; // This will cause an error because myCountry is a constant
+const myCountry = "USA";
+myCountry = "Canada"; // This will cause an error because myCountry is a constant
 
 
+// 3: Operators and String Concatenation 30 Minutes
 
-// let num1 = 10;
-// let num2 = 5;
+let num1 = 10;
+let num2 = 5;
 
-// let score = 94;
+let score = 94;
 
-// for (let i = 1; i <= 20; i++) {
-//   if (i % 2 === 0) {
-//     console.log(i);
-//   } else {
-//     console.log(i + " is odd");
-//   }
-// }
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  } else {
+    console.log(i + " is odd");
+  }
+}

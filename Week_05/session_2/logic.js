@@ -1,4 +1,4 @@
-function runAll() {
+
   console.log("=== Comparison Operators ===");
   console.log(10 > 5);        // true
   console.log(10 === 10);     // true
@@ -31,10 +31,9 @@ function runAll() {
     console.log("Count:", i);
   }
 
-  console.log("=== Even Numbers (1–20) ===");
-  for (let i = 1; i <= 20; i++) {
-    if (i % 2 === 0) {
-      console.log(i);
-    }
-  }
-}
+  // console.log("=== Even Numbers (1–20) ===");
+  // for (let i = 1; i <= 20; i++) {
+  //   if (i % 2 === 0) {
+  //     console.log(i);
+  //   }
+  // }
