@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+  max-width: 500px;
+  margin: 50px auto; /* ៥០ភីកសែល លើ/ក្រោម, auto ឆ្វេង/ស្តាំ ដើម្បីដាក់វាឱ្យនៅកណ្តាល */
+  background-color: #1B1464;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1); 
+  /* បន្ថែមស្រមោលឱ្យមើលទៅស្អាត */
+
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea
+{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+.title-label {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+
+

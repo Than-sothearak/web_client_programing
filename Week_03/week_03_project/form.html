@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="form-style.css" />
+  </head>
+
+  <body>
+    <a href="../index.html">⬅ Back to all TP</a>
+    <h1>Week 2</h1>
+    <header>
+      <h1>Contact us</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="media.html">Media</a>
+        <a href="form.html">Contact-form</a>
+      </nav>
+    </header>
+
+    <main class="form-container">
+      <h1>User information</h1>
+      <form method="GET">
+        <label for="userName">User name</label><br />
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          placeholder="Enter your name"
+          required
+        /><br /><br />
+
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        /><br /><br />
+
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+        /><br /><br />
+
+        <label for="phone">Phone Number:</label><br />
+        <input type="tel" id="phone" name="phone" placeholder="+85512345678" />
+        <br /><br />
+
+        <label for="date">Date of birth</label><br />
+        <input
+          type="date"
+          id="date"
+          name="date"
+          placeholder="Enter your date"
+        />
+        <br /><br />
+
+        <label for="age">Age</label><br />
+        <input type="number" id="age" name="age" placeholder="Enter your age" />
+       
+
+        <!-- <hr />
+
+        <h1>Gender:</h1>
+        <input type="radio" name="male" value="male" id="male" />
+        <label for="male">Male</label><br />
+
+        <input type="radio" name="female" value="female" id="female" />
+        <label for="female">Female</label>
+        <br /> -->
+
+       
+        <!-- <h1>Checkbox:</h1>
+
+        <input type="checkbox" name="html" value="html" id="html" />
+        <label for="html">HTML</label><br />
+
+        <input type="checkbox" name="css" value="css" id="css" />
+        <label for="css">CSS</label><br />
+
+        <input
+          type="checkbox"
+          name="javascript"
+          value="javascript"
+          id="javascript"
+        />
+        <label for="javascript">JavaScript</label><br /> -->
+
+        <h1 class="drop-down">Drop down</h1>
+        <select id="country" name="country">
+          <option value="cambodia">Cambodia</option>
+          <option value="usa">USA</option>
+          <option value="china">China</option>
+        </select>
+
+      
+        <h1 class="drop-down">Text area</h1>
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          cols="20"
+          placeholder="Write you message here"
+        ></textarea
+        ><br /><br />
+
+        <button type="submit">Register Now</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2026 Student Learning Website</p>
+    </footer>
+  </body>
+</html>

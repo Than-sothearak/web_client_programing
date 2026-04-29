@@ -1,0 +1,77 @@
+* {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+     
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #1B1464; 
+}
+
+header {
+      text-align: center;
+}
+
+.form-container {
+  max-width: 600px;
+  padding: 30px;
+  margin: 50px auto; 
+  background-color: #5758BB;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1); 
+
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input,
+select,
+option,
+textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #1B1464;
+}
+
+input:focus, 
+textarea:focus,
+option:focus,
+section:focus  {
+outline: none; 
+  border: 5px solid #3cff01; 
+}
+
+.drop-down {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+button {
+  padding: 20px;
+  background-color: #1B1464;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+ background-color: #42438f;
+}
+
