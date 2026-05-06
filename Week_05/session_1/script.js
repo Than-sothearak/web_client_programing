@@ -58,9 +58,6 @@ console.log(greeting2);
 
 
 
-
-
-
 // // 1: Hello Console
 // console.log("Hello, World! I am learning JavaScript.");
 
@@ -104,3 +101,17 @@ console.log(greeting2);
 //     console.log(i + " is odd");
 //   }
 // }
+=======
+  if (bmi < 18.5) {
+    return `Your BMI is ${bmi}, so you are underweight.`;
+  } else if (bmi >= 18.5 && bmi <= 24.9) {
+    return `Your BMI is ${bmi}, so you have a normal weight.`;
+  } else {
+    return `Your BMI is ${bmi}, so you are overweight.`;
+  }
+}
+
+console.log(bmiCalculator(62, 1.65));
+
+console.log("The result of num1 + num2 is: " + (num1 + num2));
+>>>>>>> 1def90e (add:week-5)
