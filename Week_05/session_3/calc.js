@@ -1,4 +1,8 @@
+
+
 function runCalculator() {
+
+
   // Step 1: Get input from user
   let num1 = Number(prompt("Enter first number:"));
   let operator = prompt("Enter operator (+, -, *, /):");
@@ -36,4 +40,4 @@ function runCalculator() {
 }
 
 // Call function (optional auto-run)
-// runCalculator();
+runCalculator();
