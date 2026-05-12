@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  width: 100%;
+  text-align: center;
+}
+
+#main-image {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 100px;
+  height: 70px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.thumb:hover {
+  transform: scale(1.05);
+}
+
+.active {
+  border: 3px solid blue;
+  opacity: 0.7;
+}
