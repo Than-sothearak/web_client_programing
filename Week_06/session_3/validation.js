@@ -48,16 +48,25 @@ form.addEventListener("submit", function (e) {
   if (confirmPassword === "") {
     confirmError.innerText = "Please confirm your password!";
     confirmInput.style.border = "2px solid red";
-  } else if (password === confirmPassword && password.length >= 8 && username.length >= 5) {
-   
-    alert("User " + username + " has" + " registration successfully");
+  } else if (password !== confirmPassword ) {
+    confirmError.innerText = "Passwords do not match!";
+    confirmInput.style.border = "2px solid red";
+ 
+  } else {
+    passwordInput.style.border = "2px solid green";
+  }
+    
+ if (
+    username.length >= 5 &&
+    password.length >= 8 &&
+    password === confirmPassword
+  ) {
+
+    alert("Registration Successful!");
 
     usernameInput.style.border = "2px solid green";
     passwordInput.style.border = "2px solid green";
     confirmInput.style.border = "2px solid green";
-  } else {
-    confirmError.innerText = "Passwords do not match!";
-    confirmInput.style.border = "2px solid red";
   }
 
 });
