@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Learning UI (jQuery)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="animations.css" />
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="logo">Student UI Academy</div>
+
+  <ul class="nav-links">
+    <li>Home</li>
+
+    <li class="dropdown-trigger">
+      Courses ▼
+      <ul class="dropdown-menu">
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript</li>
+      </ul>
+    </li>
+
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+
+    <ul class="nav-links-mobile">
+    <li>Home</li>
+
+
+    </li>
+      <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript</li>
+
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+
+  
+  <div class="">
+    <img src="../../icons/menu-svgrepo-com.svg" alt="Menu Icon" class="menu-icon"/>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Learn jQuery Animation Step by Step</h1>
+  <p>Build real UI interactions like production websites</p>
+
+  <div class="hero-buttons">
+    <button id="fadeOutBtn">Fade Out Box</button>
+    <button id="fadeInBtn">Fade In Box</button>
+    <button id="slideBtn">Slide Toggle Box</button>
+  </div>
+</header>
+
+<section class="animation-section">
+  <div id="box" class="box">
+    Interactive Animation Box
+  </div>
+</section>
+
+<section class="features">
+  <div class="card">
+    <h3>DOM Manipulation</h3>
+    <p>Learn how to control HTML elements using jQuery selectors and methods.</p>
+  </div>
+
+  <div class="card">
+    <h3>Animations</h3>
+    <p>Fade, slide, toggle effects to create smooth UI interactions.</p>
+  </div>
+
+  <div class="card">
+    <h3>Event Handling</h3>
+    <p>Click, hover, and dynamic interactions for real user experience.</p>
+  </div>
+</section>
+
+<!-- ================= ACCORDION ================= -->
+<section class="accordion-section">
+  <h2>Lessons</h2>
+
+  <div class="acc-item">
+    <div class="acc-header">Lesson 1: HTML Structure</div>
+    <div class="acc-panel">
+      <p>
+        HTML is the skeleton of a website. It defines elements like headings,
+        paragraphs, buttons, and sections.
+      </p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <div class="acc-header">Lesson 2: CSS Styling</div>
+    <div class="acc-panel">
+      <p>
+        CSS controls layout, colors, spacing, and animations. It makes the UI beautiful.
+      </p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <div class="acc-header">Lesson 3: jQuery Interactions</div>
+    <div class="acc-panel">
+      <p>
+        jQuery helps you manipulate the DOM easily using simple functions like
+        fadeIn(), slideToggle(), and click().
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Student UI Academy | Built for Learning jQuery</p>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="animations.js"></script>
+</body>
+</html>
