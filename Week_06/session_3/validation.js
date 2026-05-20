@@ -1,72 +1,41 @@
-const form = document.getElementById("register-form");
-
-form.addEventListener("submit", function (e) {
-
-  e.preventDefault();
-
-  const username = document.getElementById("username").value;
-  const password = document.getElementById("password").value;
-  const confirmPassword = document.getElementById("confirm-password").value;
-
-  const nameError = document.getElementById("name-error");
-  const passwordError = document.getElementById("password-error");
-  const confirmError = document.getElementById("confirm-error");
-
-  const usernameInput = document.getElementById("username");
-  const passwordInput = document.getElementById("password");
-  const confirmInput = document.getElementById("confirm-password");
-  
-
-  nameError.innerText = "";
-  passwordError.innerText = "";
-  confirmError.innerText = "";
+const form = document.getElementById("register-form")
 
 
-  // Username Validation
-  if (username === "") {
-    nameError.innerText = "Username cannot be empty!";
-    usernameInput.style.border = "2px solid red";
-  } else if (username.length < 5) {
-    nameError.innerText = "Username must be at least 5 characters.";
-    usernameInput.style.border = "2px solid red";
-  } else {
-    usernameInput.style.border =  "2px solid #ccc";
+form.addEventListener(("submit"), function(event) {
+  event.preventDefault();
+
+
+//Validation username input
+  const nameInput = document.getElementById("username")
+  const nameError = document.getElementById("name-error")
+  //default value error 
+  nameError.innerText = "" 
+  nameInput.style.border = "2px solid gray"
+
+  if (nameInput.value === "") {
+   nameError.innerText = "Please write your name"
+  nameInput.style.border = "2px solid red"
+  } else if (nameInput.value.length < 3 ) {
+     nameError.innerText = "Name should have more then 3 charactor"
+  nameInput.style.border = "2px solid red"
   }
 
-  // Password Validation
-  if (password === "") {
-    passwordError.innerText = "Password cannot be empty!";
-    passwordInput.style.border = "2px solid red";
-  } else if (password.length < 8) {
-    passwordError.innerText = "Password is too weak!";
-    passwordInput.style.border = "2px solid red";
-  } else {
-    passwordInput.style.border =  "2px solid #ccc";
-  }
+}
+//
 
-  // Confirm Password Validation
-  if (confirmPassword === "") {
-    confirmError.innerText = "Please confirm your password!";
-    confirmInput.style.border = "2px solid red";
-  } else if (password !== confirmPassword ) {
-    confirmError.innerText = "Passwords do not match!";
-    confirmInput.style.border = "2px solid red";
- 
-  } else {
-    passwordInput.style.border = "2px solid green";
-  }
-    
- if (
-    username.length >= 5 &&
-    password.length >= 8 &&
-    password === confirmPassword
-  ) {
+//Validation Password
 
-    alert("Registration Successful!");
+// write code here
 
-    usernameInput.style.border = "2px solid green";
-    passwordInput.style.border = "2px solid green";
-    confirmInput.style.border = "2px solid green";
-  }
+//
 
-});
+//Validation confirm password
+// write code here
+//
+
+
+)
+
+
+
+

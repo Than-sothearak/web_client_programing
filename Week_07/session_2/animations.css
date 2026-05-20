@@ -18,9 +18,10 @@
 
  .menu-icon {
   width: 24px;
+  height: 24px;
   display: none;
   cursor: pointer;
-  height: 24px;
+  
   filter: brightness(0) invert(1);
 }
 
